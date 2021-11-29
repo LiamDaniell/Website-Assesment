@@ -1,11 +1,10 @@
-html, body {
+body {
     width: 800px;
     margin: auto;
 }
 
 body{
-    background-image: url(http://brucebauer.info/img/IFSC4396/webpage-background.jpg);
-    background-repeat: repeat-x;
+    background-image: url(http://brucebauer.info/img/IFSC4396/webpage-background.jpg);   
     background-size: auto 100%;
     border: 1px solid white;
 	font-size: 18px;
@@ -33,18 +32,18 @@ nav{
     color: black;
 }
 
-.main{
+.mainpage{
     padding: 15px;
     background-color: white;
 }
 
-.float-image{
+.image{
     float: right;
     border: 2px solid black;
     margin: 6px;
 }
 
-.alert {
+.faded {
     color: grey;
 }
 
@@ -55,6 +54,12 @@ h2, h3, h4{
 }
 
 
+footer{
+    font-size: small;
+    padding: 6px 25px;
+    color: white;
+    background-color: black;
+}
 footer{
     font-size: small;
     padding: 6px 25px;
